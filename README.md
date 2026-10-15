@@ -94,13 +94,15 @@ Antes de começar, você precisará ter instalado em sua máquina:
    pip install -r requirements.txt
    ```
 
+5. **Crie sua chave secreta e salve em uma variável de ambiente:**
+   - Crie um arquivo .env com a sua chave secreta nos moldes do arquivo .env.example.
 
-5. **Execute a aplicação:**
+6. **Execute a aplicação:**
    ```bash
    uvicorn main:app --reload
    ```
 
-6. **Acesse o link:**
+7. **Acesse o link:**
    - Acesse o link de desenvolvimento gerado pelo uvicorn e digite "(seu_link)/docs" na barra de endereços para ter acesso à página do FastAPI e todas as suas funcionalidades.
 
 ---
