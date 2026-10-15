@@ -49,7 +49,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## Funcionalidades
 
 - [x] Criação e autenticação de usuários
-- [x] Criação de autenticação de administradores
+- [x] Criação e autenticação de administradores
 - [x] Criação e edição de pedidos
 - [x] Visualização de pedidos de um usuário
 - [x] Cancelamento de pedidos
