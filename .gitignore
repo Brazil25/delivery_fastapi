@@ -1,8 +1,6 @@
 # === Ficheiros do Ambiente e Segredos ===
 # NUNCA envie chaves de API, segredos ou variáveis de ambiente para o repositório
 .env
-.env.*
-!.env.example
 
 # === Ambientes Virtuais do Python ===
 .venv/
@@ -26,10 +24,6 @@ coverage.xml
 htmlcov/
 .noserc
 nosetests.xml
-
-# === Base de Dados e Migrações (Alembic) ===
-*.sqlite3
-*.db
 
 # === Logs e Ficheiros Temporários ===
 *.log

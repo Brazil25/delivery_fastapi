@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from models import Usuario
 from dependencies import pegar_sessao, verificar_token, verificar_admin
-from main import pwd_context, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES, SECRET_KEY
+from config import pwd_context, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES, SECRET_KEY
 from schemas import UsuarioSchema, LoginSchema, CriarUsuarioAdminSchema
 from sqlalchemy.orm import Session
 from jose import jwt, JWTError
