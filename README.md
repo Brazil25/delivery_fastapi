@@ -101,7 +101,7 @@ Antes de começar, você precisará ter instalado em sua máquina:
    ```
 
 6. **Acesse o link:**
-   - Acesse o link de desenvolvimento gerado pelo uvicorn e digite "/docs" na barra de endereços para ter acesso à página do FastAPI e todas as suas funcionalidades.
+   - Acesse o link de desenvolvimento gerado pelo uvicorn e digite "(seu_link)/docs" na barra de endereços para ter acesso à página do FastAPI e todas as suas funcionalidades.
 
 ---
 
